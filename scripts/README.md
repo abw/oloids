@@ -1,0 +1,2 @@
+# Script for Generating Oloid STL Files
+The [oloid.pl](oloid.pl) script can be used to generate STL files containing a solid oloid model.  See the comments in the code for further information on how to use it.
