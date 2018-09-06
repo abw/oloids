@@ -46,17 +46,12 @@
 #
 #========================================================================
 
+use Math::Trig qw( deg2rad rad2deg pi );
+use CAD::Format::STL;
 use strict;
 use warnings;
 # set this to 1 for debugging
 use constant DEBUG => 0;
-
-# Math::Trig is (I think) part of the Perl core.  You'll need to
-# install CAD::Format::STL from CPAN.  e.g. if you have the cpan module
-# installed then "cpan CAD::Format::STL" from the command line should
-# do it.
-use Math::Trig qw( deg2rad rad2deg pi );
-use CAD::Format::STL;
 
 # read radius and number of samples from command line, prompt user
 # if not supplied or use defaults
