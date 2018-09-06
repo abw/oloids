@@ -95,6 +95,9 @@ for (my $s = 0; $s < $n_samples; $s++) {
 # This results in one end of the oloid being smooth but the other
 # being rather angular.
 #
+# See the picture here for an demonstration of the problem:
+# https://math.stackexchange.com/questions/567949/symmetric-ranges-of-curve-division-on-an-oloid
+#
 # So instead we only generate the first 90 degrees and then rely on the
 # symmetry to provide us with the points for the last 30 degrees.  In
 # effect, we tack the results of B that we generated above onto the end
