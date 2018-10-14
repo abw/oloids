@@ -56,7 +56,7 @@ use constant DEBUG => 0;
 # read radius and number of samples from command line, prompt user
 # if not supplied or use defaults
 my $radius = shift
-    || prompt("Radius in mm", 1);
+    || prompt("Radius in mm", 33.333);
 
 my $n_samples = shift
     || prompt("Number of samples", 30);
@@ -145,16 +145,16 @@ for (my $n = 1; $n < $max; $n++) {
         @facets,
         # first the quadrant in +x, +z
         [[ $ax1, $ay1, $az1], [ $bx1, $by1, $bz1], [ $ax2, $ay2, $az2]],
-        [[ $bx1, $by1, $bz1], [ $ax2, $ay2, $az2], [ $bx2, $by2, $bz2]],
+        [[ $bx1, $by1, $bz1], [ $bx2, $by2, $bz2], [ $ax2, $ay2, $az2]],
         # then mirror it in x for the -x, +z quadrant
         [[-$ax1, $ay1, $az1], [-$bx1, $by1, $bz1], [-$ax2, $ay2, $az2]],
-        [[-$bx1, $by1, $bz1], [-$ax2, $ay2, $az2], [-$bx2, $by2, $bz2]],
+        [[-$bx1, $by1, $bz1], [-$bx2, $by2, $bz2], [-$ax2, $ay2, $az2]],
         # then mirror in z for +x, -z
         [[ $ax1, $ay1, -$az1], [ $bx1, $by1, -$bz1], [ $ax2, $ay2, -$az2]],
-        [[ $bx1, $by1, -$bz1], [ $ax2, $ay2, -$az2], [ $bx2, $by2, -$bz2]],
+        [[ $bx1, $by1, -$bz1], [ $bx2, $by2, -$bz2], [ $ax2, $ay2, -$az2]],
         # once more in both x and z for -x, -z
         [[-$ax1, $ay1, -$az1], [-$bx1, $by1, -$bz1], [-$ax2, $ay2, -$az2]],
-        [[-$bx1, $by1, -$bz1], [-$ax2, $ay2, -$az2], [-$bx2, $by2, -$bz2]],
+        [[-$bx1, $by1, -$bz1], [-$bx2, $by2, -$bz2], [-$ax2, $ay2, -$az2]],
     );
 }
 
