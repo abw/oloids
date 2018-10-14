@@ -19,42 +19,42 @@ The [models](models) directory contains some example STL files generated
 by the script.  These are basic solid oloids.  You should be able to import these directly into your 3d modelling software for further manipulation.
 
 ### Basic Oloid STL Model
-![Basic Oloid](images/Basic Oloid.png)
+![Basic Oloid](images/Basic-Oloid.png)
 
 ## Custom Disc Oloids
 
 ### Brainbox Disc Oloid
-![Brainbox Disc Oloid](images/Brainbox Disc Oloid.png)
+![Brainbox Disc Oloid](images/Brainbox-Disc-Oloid.png)
 
 ### Honeycomb Disc Oloid
-![Honeycomb Disc Oloid](images/Honeycomb Disc Oloid.png)
+![Honeycomb Disc Oloid](images/Honeycomb-Disc-Oloid.png)
 
 ### Halloween Disc Oloid
-![Halloween Disc Oloid](images/Halloween Disc Oloid.png)
+![Halloween Disc Oloid](images/Halloween-Disc-Oloid.png)
 
 ## Custom Solid Oloids
 
 ### Cookie Cut Cog Oloid
-![Cookie Cut Oloid](images/Cookie Cut Cog Oloid.png)
+![Cookie Cut Oloid](images/Cookie-Cut-Cog-Oloid.png)
 
 ### Interlocked Cogs Oloid
-![Interlocked Cogs Oloid](images/Interlocked Cogs Oloid.png)
+![Interlocked Cogs Oloid](images/Interlocked-Cogs-Oloid.png)
 
 ### Edge Carve Oloid
-![Edge Carve Oloid](images/Edge Carve Oloid.png)
+![Edge Carve Oloid](images/Edge-Carve-Oloid.png)
 
 ### Square Foil Oloid
 This can be printed upright in a single part.
-![Square Foil Oloid](images/Square Foil Oloid.png)
+![Square Foil Oloid](images/Square-Foil-Oloid.png)
 
 ### Fern Oloid #1
-![Fern Oloid #1](images/Fern Oloid 1.png)
+![Fern Oloid #1](images/Fern-Oloid-1.png)
 
 ### Fern Oloid #2
-![Fern Oloid #2](images/Fern Oloid 2.png)
+![Fern Oloid #2](images/Fern-Oloid-2.png)
 
 ### Multipart Oloid
 Printed in separate parts that push together.
 
-![Multipart Oloid](images/Multipart Oloid.png)
+![Multipart Oloid](images/Multipart-Oloid.png)
 
