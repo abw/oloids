@@ -1,5 +1,5 @@
 # Oloids
-This project contains the scripts, STL files, Fusion 360 source files and other media relating to my video on [Oloids](https://en.wikipedia.org/wiki/Oloid).  It will be appearing soon on my YouTube channel [Make It Down To Earth](https://www.youtube.com/channel/UCGBt41ue4j5QFqwPg0efcfQ)
+This project contains the scripts, STL files, Fusion 360 source files and other media relating for the [Oloids Also Roll in a Wibbly Wobbly Way](https://www.youtube.com/watch?v=KMoEVoOIFws) video on my YouTube channel [Make It Down To Earth](https://www.youtube.com/channel/UCGBt41ue4j5QFqwPg0efcfQ)
 
 The [fusion360](fusion360) directory contains the Fusion 360 source files for the custom oloid designs featured in the video.  The [stl](stl) directory contains the STL files for those design if you just want to print them.  See below for pictures/renderings of the models.
 
